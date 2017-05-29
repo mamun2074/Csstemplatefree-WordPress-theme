@@ -1,0 +1,138 @@
+
+@media all and (max-width: 1200px){
+		.logo {
+			display: block;
+			text-align: center;
+			margin-bottom: 30px;
+		}
+		.menu ul{
+			width:100%;
+			text-align: center;
+		}
+		.menu ul li a{
+			font-size: 20px;
+			-webkit-transform: rotate(3deg);
+			-ms-transform: rotate(3deg);
+			-o-transform: rotate(3deg);
+			transform: rotate(3deg);
+		}
+		.menu ul li:hover a{
+			-webkit-transform: rotate(2deg);
+			-ms-transform: rotate(2deg);
+			-o-transform: rotate(2deg);
+			transform: rotate(2deg);
+		}
+
+
+}
+@media all and (max-width: 619px){
+	.menu ul li a{
+		font-size: 16px;
+	}
+	.menu ul li a{
+		-webkit-transform: rotate(1deg);
+		-ms-transform: rotate(1deg);
+		-o-transform: rotate(1deg);
+		transform: rotate(1deg);
+	}
+	.menu ul li:hover a{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+	}
+
+}
+@media all and (max-width: 529px){
+	.menu ul li a{
+		padding: 0px;
+		margin:0px;
+		border: none
+	}
+	.menu ul li:hover a{
+		background-color: transparent;
+		color:white;
+		padding: 0px;
+		margin:0px;
+		border: none;
+		transform:rotate(1deg);
+	}		
+}
+
+@media all and (max-width: 449px){
+
+	.menu ul li a{
+		font-size: 12px;
+		padding: 2px 4px;
+		margin-right: 0px;
+	}
+	.menu ul li{
+		display: block;
+		margin-bottom: 20px;
+	}
+	.menu ul li a{
+		-webkit-transform: rotate(0deg);
+		-ms-transform: rotate(0deg);
+		-o-transform: rotate(0deg);
+		transform: rotate(0deg);
+		font-size: 20px;
+		padding: 0px;
+		margin-bottom: 2px;
+		display: block;
+	}
+	.menu ul li a{
+		border: 2px solid transparent;
+	}
+	.menu ul li:hover a{
+		background-color: transparent;
+		color:white;
+		border: 2px solid transparent;
+		transform:rotate(0deg);
+
+	}
+
+
+	
+}
+@media all and (max-width: 291px){
+	.tem img{
+		height: 160px;
+	}
+	.tem{
+		height: 200px;
+	}
+}
+
+@media all and (max-width: 991px){
+	.link{
+		margin-bottom: 40px;
+	}
+}
+@media all and (max-width:576px){
+	.img img{
+		height: 250px;
+		margin-right: 15px;
+	}
+	.mid-content h2{
+		font-size: 20px;
+		margin-bottom: 5px;
+	}
+	.mid-content p{
+		margin-bottom: 0px;
+		font-size: 14px;
+	}
+	.link a{
+		padding: 10px 20px;
+	}
+}
+@media all and (max-width:301px){
+	.link a{
+		padding: 5px 15px;
+		margin-right: 0px;
+	}	
+}
+@media all and (max-width: 768px){
+	.tem a{
+		cursor: pointer;
+	}
+}
